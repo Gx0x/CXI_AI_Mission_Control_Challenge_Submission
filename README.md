@@ -10,6 +10,6 @@ Anomaly Detection: Monitors project activity to identify "quiet periods" that ma
 Technical Stack:
 Frontend: React and Tailwind CSS (developed via Bolt.new).
 Backend: n8n AI orchestration platform.
-AI Models: OpenAI GPT-4o (Reasoning), Whisper (Speech-to-Text), and TTS-1 (Text-to-Speech).
+AI Models: Claude (Reasoning), Claude Speech-to-Text, and Claude Text-to-Speech.
 Backend Logic:
 The JSON exports for the four specialized n8n workflows powering this application are located in the AI_Workflows.md file within this repository. These files contain the prompt engineering and logic nodes for the Triage, KPI, Detective, and Assistant agents.
